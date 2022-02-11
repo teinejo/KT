@@ -1,0 +1,17 @@
+<div>
+  <table class="center" border="2">
+    <tbody>
+      <tr>
+        <td>Id</td>
+        <td>Title</td>
+        <td>Author</td>
+        <td>Genre</td>
+        <td>Description</td>
+      </tr>
+      <table-comp
+        *ngFor="let el of arr"
+        [book]="el"
+      ></table-comp>
+    </tbody>
+</table>
+</div>
